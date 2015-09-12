@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="net/semanticmetadata/lire/imageanalysis/features/global/|net/semanticmetadata/lire/imageanalysis/features/global/cedd/|net/semanticmetadata/lire/imageanalysis/features/global/centrist/|net/semanticmetadata/lire/imageanalysis/features/global/correlogram/|net/semanticmetadata/lire/imageanalysis/features/global/fcth/|net/semanticmetadata/lire/imageanalysis/features/global/joint/|net/semanticmetadata/lire/imageanalysis/features/global/mpeg7/|net/semanticmetadata/lire/imageanalysis/features/global/spatialpyramid/|net/semanticmetadata/lire/indexers/hashing/|net/semanticmetadata/lire/indexers/parallel/|net/semanticmetadata/lire/indexers/tools/" kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="lirenewdemo/src/main/webapp/WEB-INF/lib"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
