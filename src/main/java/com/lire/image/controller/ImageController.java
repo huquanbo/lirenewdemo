@@ -1,4 +1,4 @@
-package com.lire.image.controller;
+﻿package com.lire.image.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,6 +20,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.lire.image.entity.Image;
 import com.lire.image.service.ImageService;
+/**
+image controller test
+test github
+*/
 @Controller
 public class ImageController {
 	
