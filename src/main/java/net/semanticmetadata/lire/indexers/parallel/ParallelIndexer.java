@@ -393,6 +393,7 @@ public class ParallelIndexer implements Runnable {
 //    public ParallelIndexer(int numOfThreads, String indexPath, File imageList, boolean overWrite, int[] numOfClusters, int numOfDocsForCodebooks) {
 //        this.numOfThreads = numOfThreads;
 //        this.indexPath = indexPath;
+//        this.imageList = imageList;
 //        this.overWrite = overWrite;
 //        this.numOfClusters = numOfClusters;
 //        this.numOfDocsForCodebooks = numOfDocsForCodebooks;
@@ -418,7 +419,6 @@ public class ParallelIndexer implements Runnable {
 
     public ParallelIndexer(int numOfThreads, String indexPath, File imageList, String fromIndexPath) {
         this.numOfThreads = numOfThreads;
-//        this.imageList = imageList;eads;
         this.indexPath = indexPath;
         this.imageList = imageList;
         if ((new File(fromIndexPath)).exists()) {
@@ -1069,7 +1069,7 @@ public class ParallelIndexer implements Runnable {
                     if (!locallyEnded) {    //&& tmp != null
                         image = ImageIO.read(new ByteArrayInputStream(tmp.getBuffer()));
                         doc = localCustomDocumentBuilder.createDocument(image, tmp.getFileName());
-/*                        fields = globalDocumentBuilder.createDescriptorFields(image);
+                        fields = globalDocumentBuilder.createDescriptorFields(image);
                         for (Field field : fields) {
                             doc.add(field);
                         }
@@ -1082,7 +1082,6 @@ public class ParallelIndexer implements Runnable {
                             doc.add(field);
                         }
                         writer.addDocument(doc);
-*/
                     }
                 } catch (InterruptedException | IOException e) {
                     log.severe(e.getMessage());

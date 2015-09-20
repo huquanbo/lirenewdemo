@@ -20,7 +20,7 @@ public class Image {
 	public Image(double score, String imagepath) {
 		this.score = score;
 		String[] imagespath = imagepath.split("\\\\");
-		this.imagepath = imagespath[imagespath.length-1];
+		this.imagepath = imagepath;
 	}
 	
 	

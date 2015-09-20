@@ -17,5 +17,5 @@ public interface ImageService {
 	 */
 	public boolean createImageIndex(String imagespath,String indexpat) throws IOException ;
 	
-	public int copyImagesToOtherName(String srcImagespath,String desImagespath);
+//	public int copyImagesToOtherName(String srcImagespath,String desImagespath);
 }

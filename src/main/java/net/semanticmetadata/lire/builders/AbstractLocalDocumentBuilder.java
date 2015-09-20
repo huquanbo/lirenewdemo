@@ -73,7 +73,7 @@ public abstract class AbstractLocalDocumentBuilder implements DocumentBuilder {
      * @return the input localFeatureExtractor
      */
     public LocalFeatureExtractor extractLocalFeatures(BufferedImage image, LocalFeatureExtractor localFeatureExtractor) {
-//        assert (image != null); cyw
+        assert (image != null);
 		// Scaling image is especially with the correlogram features very
 		// important!
 		// indexing.
